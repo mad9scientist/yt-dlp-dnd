@@ -45,6 +45,12 @@ ffmpeg = <Defaults to System Path ffmpeg> # Not implemented yet
 download_folder = <Defaults to Desktop>
 ```
 
+## Build Command
+```bash
+dotnet publish -c Release --self-contained true -p:PublishSingleFile=true -o .\release
+```
+
+
 ## Changelog
 
 * 2025-April-19: Initial Released (ver. 0.1)
